@@ -6,10 +6,6 @@ Hierarchy に Scene アセットを Ping するボタンを追加するエディ
 ![](https://img.shields.io/badge/.NET-4.x-orange.svg)
 [![](https://img.shields.io/github/license/baba-s/uni-scene-asset-selector.svg)](https://github.com/baba-s/uni-scene-asset-selector/blob/master/LICENSE)
 
-## バージョン
-
-- Unity 2018.4.8f1
-
 ## インストール
 
 ```json
@@ -21,3 +17,5 @@ manifest.json に上記の記述を追加します
 ## 使い方
 
 ![](https://cdn-ak.f.st-hatena.com/images/fotolife/b/baba_s/20190928/20190928190857.gif)
+
+Hierachy に追加されたボタンを押すと、該当する Scene アセット を Ping できます  
