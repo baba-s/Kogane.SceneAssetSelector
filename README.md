@@ -9,7 +9,7 @@ Hierarchy に Scene アセットを Ping するボタンを追加するエディ
 ## インストール
 
 ```json
-"com.baba_s.uni_scene_asset_selector": "https://github.com/baba-s/uni-scene-asset-selector.git"
+"com.baba_s.uni_scene_asset_selector": "https://github.com/baba-s/uni-scene-asset-selector.git",
 ```
 
 manifest.json に上記の記述を追加します  
