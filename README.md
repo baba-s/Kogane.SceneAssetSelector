@@ -2,7 +2,7 @@
 
 Hierarchy に Scene アセットを Ping するボタンを追加するエディタ拡張
 
-![](https://img.shields.io/badge/Unity-2014.3%2B-red.svg)
+![](https://img.shields.io/badge/Unity-2018.4%2B-red.svg)
 ![](https://img.shields.io/badge/.NET-4.x-orange.svg)
 [![](https://img.shields.io/github/license/baba-s/uni-scene-asset-selector.svg)](https://github.com/baba-s/uni-scene-asset-selector/blob/master/LICENSE)
 
