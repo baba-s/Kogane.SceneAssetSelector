@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 namespace KoganeUnityLib
 {
 	[InitializeOnLoad]
-	public static class SceneAssetSelector
+	internal static class SceneAssetSelector
 	{
 		static SceneAssetSelector()
 		{
