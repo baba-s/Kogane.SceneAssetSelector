@@ -4,7 +4,7 @@ using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace KoganeUnityLib
+namespace UniSceneAssetSelector
 {
 	[InitializeOnLoad]
 	internal static class SceneAssetSelector
@@ -16,11 +16,14 @@ namespace KoganeUnityLib
 
 		private static void OnGUI( int instanceID, Rect rect )
 		{
-			rect.x     += rect.width - 24;
+			rect.x     += rect.width - 20;
 			rect.width =  16;
 
+			var name = "eyeDropper.Large";
+			var icon = EditorGUIUtility.IconContent( name );
+
 			if ( EditorUtility.InstanceIDToObject( instanceID ) != null ) return;
-			if ( !GUI.Button( rect, string.Empty ) ) return;
+			if ( !GUI.Button( rect, icon.image, GUIStyle.none ) ) return;
 
 			var type       = typeof( EditorSceneManager );
 			var attr       = BindingFlags.NonPublic | BindingFlags.Static;
