@@ -1,6 +1,6 @@
 # Uni Scene Asset Selector
 
-* Hierarchy にシーンファイルを Ping するボタンを追加するエディタ拡張
+Hierarchy にシーンファイルを Ping するボタンを追加するエディタ拡張
 
 ## 使用例
 
