@@ -1,4 +1,4 @@
-# Uni Scene Asset Selector
+# Kogane Scene Asset Selector
 
 Hierarchy にシーンファイルを Ping するボタンを追加するエディタ拡張
 

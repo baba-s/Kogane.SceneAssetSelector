@@ -1,5 +1,5 @@
 {
-    "name": "UniSceneAssetSelector",
+    "name": "Kogane.SceneAssetSelector",
     "references": [],
     "includePlatforms": [
         "Editor"
